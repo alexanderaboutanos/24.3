@@ -1,0 +1,35 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cupcakes!</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.js"></script>
+  </head>
+  <body>
+    <h1>Hello</h1>
+    <div>
+      <h3>List of cupcakes</h3>
+      <ul class="cupcake_list"></ul>
+      <script src="static/cupcakes.js"></script>
+    </div>
+    <div>
+      <h3>Make new cupcake</h3>
+      <form action="#" id="new_cupcake_form">
+        <label for="flavor">flavor</label>
+        <input type="text" name="flavor" id="new_flavor" />
+        <label for="size">size</label>
+        <input type="text" name="size" id="new_size" />
+        <label for="rating">rating</label>
+        <input type="text" name="rating" id="new_rating" />
+        <label for="image">image</label>
+        <input type="text" name="image" id="new_image" />
+        <button type="button" id="new_cupcake_submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
